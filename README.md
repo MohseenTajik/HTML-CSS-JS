@@ -1,1 +1,1 @@
-* hi 
+[visit](index.html)
