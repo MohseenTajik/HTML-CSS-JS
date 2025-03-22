@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("More information is coming!");
         });
     });
-    
     list.forEach(button => {
         button.addEventListener("click", function () {
             alert("More information is coming!");
