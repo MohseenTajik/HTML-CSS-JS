@@ -1,15 +1,15 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".btn");
-    const list = document.querySelectorAll(".list");
+    const lists = document.querySelectorAll(".list");
 
     buttons.forEach(button => {
         button.addEventListener("click", function () {
             alert("More information is coming!");
         });
     });
-    list.forEach(button => {
-        button.addEventListener("click", function () {
+    lists.forEach(list => {
+        list.addEventListener("click", function () {
             alert("More information is coming!");
         });
     });
